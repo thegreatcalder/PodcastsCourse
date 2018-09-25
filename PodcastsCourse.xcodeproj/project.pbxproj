@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AB3D7E86A6A8181031A83232 /* Pods_PodcastsCourse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA12110E0E2262EC24F554F2 /* Pods_PodcastsCourse.framework */; };
+		C3351F96215A7629007771F5 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3351F95215A7629007771F5 /* Episode.swift */; };
 		C356C5F5215128DA004B3FE2 /* EpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356C5F4215128DA004B3FE2 /* EpisodesViewController.swift */; };
 		C3A500CA212862EA00D3054E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A500C9212862EA00D3054E /* AppDelegate.swift */; };
 		C3A500CC212862EA00D3054E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A500CB212862EA00D3054E /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		5697304E41F8A461BFD44757 /* Pods-PodcastsCourse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodcastsCourse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodcastsCourse/Pods-PodcastsCourse.debug.xcconfig"; sourceTree = "<group>"; };
+		C3351F95215A7629007771F5 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		C356C5F4215128DA004B3FE2 /* EpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewController.swift; sourceTree = "<group>"; };
 		C3A500C6212862EA00D3054E /* PodcastsCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodcastsCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A500C9212862EA00D3054E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				C3A500E12128B36700D3054E /* Podcast.swift */,
+				C3351F95215A7629007771F5 /* Episode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				C3B97EB8214E8D5E004AA00D /* PodcastTableViewCell.swift in Sources */,
 				C3A500DC2128632F00D3054E /* MainTabBarController.swift in Sources */,
 				C3B97EB3214DBCED004AA00D /* APIService.swift in Sources */,
+				C3351F96215A7629007771F5 /* Episode.swift in Sources */,
 				C3A500E22128B36700D3054E /* Podcast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
